@@ -1,9 +1,9 @@
 require 'sinatra/base'
 require 'json'
 
-module CodingTest
+module CurrencyRates
   class App < Sinatra::Base
-    get '/currency_codes' do
+    get '/' do
       codes = [
         {:code => 'USD', :rate => 1.0},
         {:code => 'EUR', :rate => 0.79521}

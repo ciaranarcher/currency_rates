@@ -1,3 +1,3 @@
-require './lib/coding_test'
+require './lib/currency_rates'
 
-run CodingTest::App
+run CurrencyRates::App
