@@ -9,7 +9,9 @@ module CurrencyRates
         {:code => 'EUR', :rate => 0.79521}
       ]
 
-      JSON codes
+      status 200 
+      headers 'Content-Type' => 'application/json'
+      body JSON codes
     end
   end
 end
